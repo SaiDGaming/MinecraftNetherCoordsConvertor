@@ -6,11 +6,9 @@
 int main()
 {
 	printf("MINECRAFT NETHER COORDS DECONVERTOR (by SaiD)\n\n\n");
-	bool isActive = true;
-	char anyc[1024];
 	float x, z, xend, zend;
 
-	while (isActive)
+	while (1)
 	{
 		printf("Enter X, then Z.(Coords in Overworld)\n");
 		if (scanf("%f", &x) < 1) {
@@ -22,10 +20,10 @@ int main()
 			break;
 		}
 
-		xend = x * 8;
-		zend = z * 8;
+		xend = x / 8;
+		zend = z / 8;
 		
 		printf("Your coords is: X = %.1f, Z = %.1f\n\n", xend, zend);
 	}
-		return 0;
+	return 0;
 }
