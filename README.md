@@ -3,4 +3,4 @@ A C scripts for converting coords from overworld coords to nether coords and vic
 
 
 
-Repository have 2 scripts for unique cases.
+Repository have 2 programs for unique cases.
