@@ -8,7 +8,7 @@ int main()
 	printf("MINECRAFT NETHER COORDS CONVERTOR (by SaiD)\n\n\n");
 	bool isActive = true;
 	char anyc[1024];
-	float x, z, xend, zend, resulend;
+	float x, z, xend, zend;
 
 	while (isActive)
 	{
@@ -28,7 +28,7 @@ int main()
 			xend = 1;
 		if(zend <= 1)
 			zend = 1;
-		resulend = xend && zend;
+	
 		
 		printf("Your coords is: X = %.1f, Z = %.1f\n\n", xend, zend);
 	}
